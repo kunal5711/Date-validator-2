@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    position: absolute;
+    left: 234px;
+    z-index: -1;
+}
+
+.container{
+    margin: 50px 584px;
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    height: 500px;
+    padding: 0px 41px;
+}
+
+.button{
+    /* border: 1px solid blue; */
+    padding: 27px 50px;
+}
+
+label{
+    color: grey;
+}
+
+.data{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: larger;
+}
+
+input{
+    background-color: transparent;
+    padding: 3px 22px;
+    border-radius: 6px;
+}
+
+.container h1{
+    padding: 0px 39px;
+}
+
+button{
+    padding: 5px 60px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+@media screen and (max-width : 600px){
+    .container{
+        margin: 50px 50px;
+    }   
+}
